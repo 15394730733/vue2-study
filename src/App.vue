@@ -1,3 +1,4 @@
+<!---->
 <template>
   <div id="app">
     <nav>
@@ -7,7 +8,7 @@
     <router-view/>
   </div>
 </template>
-
+<!--标记下方样式使用的scss语法-->
 <style lang="scss">
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;

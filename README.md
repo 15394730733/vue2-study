@@ -15,7 +15,7 @@
 │   ├── App.vue：vue的根实例  
 │   └── main.js：vue应用入口文件  
 ├── test：  
-├── .browserslistrc：[node插件browserslist设置需兼容浏览器有哪些的文件](https://zhuanlan.zhihu.com/p/618578523)  
+├── .browserslistrc：[node插件browserslist设置需兼容浏览器有哪些的文件](https://github.com/browserslist/browserslist)  
 ├── .editorconfig：[通用的编辑器配置文件，帮助维护一致的编码样式](https://zhuanlan.zhihu.com/p/349063996)  
 ├── .eslintrc.js：[代码检查工具eslint的配置文件](https://zh-hans.eslint.org/docs/latest/use/getting-started)  
 ├── .gitignore：[设置上传git时需要忽略的文件或目录](https://blog.csdn.net/nyist_zxp/article/details/119887324)  

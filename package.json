@@ -1,20 +1,20 @@
 {
-  "name": "hello-world-analyze",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
+  "name": "hello-world-analyze",//项目名称
+  "version": "0.1.0",//版本号
+  "private": true,//私有，防止意外把私有库发布到npm服务器
+  "scripts": {//npm 脚本，左边是命令，右边是实际调用的命令完全体
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint"
   },
-  "dependencies": {
+  "dependencies": {//项目生产环境必须的依赖包
     "core-js": "^3.8.3",
     "vue": "^2.6.14",
     "vue-router": "^3.5.1",
     "vuex": "^3.6.2"
   },
-  "devDependencies": {
+  "devDependencies": {//项目开发阶段需要的依赖包
     "@babel/core": "^7.12.16",
     "@babel/eslint-parser": "^7.12.16",
     "@vue/cli-plugin-babel": "~5.0.0",
