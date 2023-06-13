@@ -31,7 +31,7 @@
     "eslint-plugin-import": "^2.25.3",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^5.1.0",
-    "eslint-plugin-vue": "^8.0.3",
+    "eslint-plugin-vue": "^8.0.3",//官方的 eslint-plugin-vue 同时支持在 Vue 单文件组件的模板和脚本部分的代码校验。
     "jest": "^27.0.5",
     "sass": "^1.32.7",
     "sass-loader": "^12.0.0",

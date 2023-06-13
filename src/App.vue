@@ -1,4 +1,3 @@
-<!---->
 <template>
   <div id="app">
     <nav>
@@ -24,7 +23,7 @@ nav {
   a {
     font-weight: bold;
     color: #2c3e50;
-
+    //这里编译之后其实是nav a.router-link-exact-active
     &.router-link-exact-active {
       color: #42b983;
     }

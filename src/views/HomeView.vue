@@ -10,8 +10,8 @@
 import HelloWorld from '@/components/HelloWorld.vue'
 
 export default {
-  name: 'HomeView',
-  components: {
+  name: 'HomeView',//指定组件的名称
+  components: {//注册局部组件
     HelloWorld
   }
 }

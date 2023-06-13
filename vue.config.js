@@ -19,6 +19,6 @@ module.exports = defineConfig({
   lintOnSave:'default',//设置为default，则lint错误在开发时直接显示在浏览器中
   runtimeCompiler:false,//是否使用包含运行时编译器的 Vue 构建版本，默认为false
   transpileDependencies: true,//babel-loader 是否忽略所有 node_modules 中的文件，默认是false
-  productionSourceMap: true,//是否需要生产环境的 source map，默认是正确
+  productionSourceMap: true//是否需要生产环境的 source map，默认是正确
   //其他配置见bue-cli的配置参考 https://cli.vuejs.org/zh/config/?#vue-config-js
 })

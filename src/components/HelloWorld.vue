@@ -35,8 +35,8 @@
 
 <script>
 export default {
-  name: 'HelloWorld',
-  props: {
+  name: 'HelloWorld',//指定组件名称
+  props: {//通过 Prop 向子组件传递数据
     msg: String
   }
 }
